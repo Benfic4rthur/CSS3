@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Estilizando formularios</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div id="container">
+        <h2>Estilizando formularios</h2>
+        <form>
+            <fieldset id="contato">
+                <legend>Detalhes de contato</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+            </fieldset>
+            <fieldset id="comentarios">
+                <legend>Comentarios</legend>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+
+            </fieldset>
+            <fieldset id="lembrar">
+                <legend>Lembrar de mim</legend>
+                <div>
+                    <input type="radio" name="lembrar" id="sim">Sim
+                    <input type="radio" name="lembrar" id="nao">Não
+                </div>
+                <div><input type="submit" value="Enviar"></div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

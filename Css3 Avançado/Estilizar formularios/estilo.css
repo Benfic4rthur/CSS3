@@ -1,0 +1,70 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#container {
+    width: 19.9%;
+    height: 100%;
+    background-color: #f0ecec;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #666;
+    margin-top: 50px;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #ccc;
+    width: 20em;
+}
+
+#contato input {
+    width: 20em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #666;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+#comentarios textarea {
+    width: 20em;
+    height: 10em;
+}
+
+#lembrar {
+    height: 100px;
+}
+
+#lembrar input[type="submit"] {
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #666;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+#lembrar input[type="submit"]:hover {
+    background-color: #333;
+    font-size: 1.1em;
+    margin-left: 65px;
+}
