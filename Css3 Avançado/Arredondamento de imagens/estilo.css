@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+
+}
+.caixa{
+    width: 400px;
+    background: #dedede url("imagens/fundo-arredondamento.png") repeat-y;
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+    background: url("imagens/topo2.png") no-repeat left top;
+}
+
+.caixa p{
+    padding: 0 20px;
+    margin-bottom: 0px;
+}
+
+.caixa div.ultimo{
+    padding: 0 20px 20px 20px;
+    background: url("imagens/baixo2.png") no-repeat left bottom;
+}
