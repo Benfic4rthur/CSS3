@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url("imagens/menu.png") left bottom;
+    
+}
+
+ul a:hover, .selecionado a{
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
+}
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#contato #navegacao .contato a,
+#servicos #navegacao .servicos a,
+#produtos #navegacao .produtos a{
+    background-position: right bottom;
+    color: white;
+    background-color: #f99200;
+}

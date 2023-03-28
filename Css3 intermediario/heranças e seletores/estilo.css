@@ -1,0 +1,50 @@
+/*Seletor universal*/
+* {
+    border: 1px solid #000;
+}
+
+/*Seletor de texto*/
+h1 {
+    font-size: 2em;
+    color: green;
+    background-color: aqua;
+}
+
+/*Seletor de classe*/
+p.verde {
+    color: green;
+}
+
+/*Seletor de id*/
+p#vermelho {
+    color: red;
+}
+
+/*Seletor de filho*/
+li>a {
+    color: pink;
+    text-decoration: none;
+}
+
+li>a:hover {
+    background-color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*Seletor de descendente*/
+p a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Seletor de irmão adjacente*/
+p+h2 {
+    color: blue;
+}
+
+/*Seletor de irmão geral*/
+P~h3 {
+    color: red;
+}
